@@ -42,14 +42,3 @@
     (map #(find-combos items target %) (range 1 (+ max-n 1)))))
 
 (remove empty? (process-menu filename))
-;; (combinations t-items 7)
-
-
-
-
-;; (def t-items (last (parse-menu filename)))
-;; (combinations-up-to 1 t-items)
-;; (max-count 15.05 t-items)
-;; (apply min (map :price t-items))
-;; (reduce + (map :price t-items))
-;; (match? (float 1) t-items)
